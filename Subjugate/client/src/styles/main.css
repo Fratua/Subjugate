@@ -1,0 +1,78 @@
+/* Subjugate/client/src/styles/main.css */
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+#worldMap {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/worldMap.jpg');
+    background-size: cover;
+}
+
+#characterCreationForm,
+#combatArea,
+#skillsTree,
+#craftingTable,
+#tradingPost,
+#chatWindow,
+#guildHall,
+#marketplace,
+#postalService {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.chatMessage {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tradeRequest,
+.guildInvite {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.gameUpdate {
+    padding: 10px;
+    background-color: #ffc107;
+    color: #212529;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
